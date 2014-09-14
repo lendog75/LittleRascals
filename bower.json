@@ -1,0 +1,26 @@
+{
+  "name": "LittleRascals",
+  "version": "0.0.0",
+  "authors": [
+    "lendog75 <lendog75@yahoo.com>"
+  ],
+  "description": "Little Rascals Corp Website",
+  "main": "index.html",
+  "keywords": [
+    "Childcare",
+    "Daycare",
+    "Learning"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
