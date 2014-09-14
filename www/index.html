@@ -16,6 +16,9 @@
     <link href="css/style.css" rel="stylesheet" />
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Ubuntu' rel='stylesheet' type='text/css' />
+
+    <!--blur slidShow -->
+    <link rel="stylesheet" href="css/blur.css"/>
 </head>
 
 <body>
@@ -77,54 +80,102 @@
     </div>
 </nav>
 
-<div class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="../assets/img/banner-parent_faq.png" width="100%" alt="test 1">
-            <div class="carousel-caption">
-                <h3>Welcome to your child’s first classroom! We provide your children with a first-class early development education.</h3>
-            </div>
-        </div>
-        <div class="item">
-            <img src="img/kids-running.jpg" width="100%" alt="test2">
-            <div class="carousel-caption">
-                <h3>Each activity is designed with a specific lesson or outcome in mind.</h3>
-            </div>
-        </div>
+
+<!--<div class="carousel slide" data-ride="carousel">-->
+    <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+    <!--<ol class="carousel-indicators">-->
+        <!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
+        <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+        <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+    <!--</ol>-->
+
+    <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+    <!--<div class="carousel-inner">-->
+        <!--<div class="item active">-->
+            <!--<img src="../assets/img/banner-parent_faq.png" width="100%" alt="test 1">-->
+            <!--<div class="carousel-caption">-->
+                <!--<h3>Welcome to your child’s first classroom! We provide your children with a first-class early development education.</h3>-->
+            <!--</div>-->
+        <!--</div>-->
         <!--<div class="item">-->
-        <!--<img src="../assets/img/banner-parent_faq.png" width="100%" alt="test2">-->
-        <!--<div class="carousel-caption">-->
-        <!--<h3>Each activity is designed with a specific lesson or outcome in mind. In fact, our activities are designed to align with 140 learning standards that progress sequentially across six developmental domains.</h3>-->
+            <!--<img src="img/kids-running.jpg" width="100%" alt="test2">-->
+            <!--<div class="carousel-caption">-->
+                <!--<h3>Each activity is designed with a specific lesson or outcome in mind.</h3>-->
+            <!--</div>-->
         <!--</div>-->
-        <!--</div>-->
+        <!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+        <!--&lt;!&ndash;<img src="../assets/img/banner-parent_faq.png" width="100%" alt="test2">&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="carousel-caption">&ndash;&gt;-->
+        <!--&lt;!&ndash;<h3>Each activity is designed with a specific lesson or outcome in mind. In fact, our activities are designed to align with 140 learning standards that progress sequentially across six developmental domains.</h3>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--</div>-->
+
+    <!--&lt;!&ndash; Controls &ndash;&gt;-->
+    <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
+        <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+    <!--</a>-->
+    <!--<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
+        <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+    <!--</a>-->
+<!--</div>-->
+
+<div class="container-fluid clearfix">
+    <!-- Slider-->
+    <div class="row">
+        <div id="welcome">
+            <div class="container-fluid clearfix" style="padding:0; overflow:hidden">
+                <ul class="cb-slideshow">
+                    <li>
+                        <span></span>
+
+                        <div><h3>Welcome to your child’s first classroom!</h3></div>
+                    </li>
+                    <li>
+                        <span></span>
+
+                        <div><h3>We provide your children with a first-class early development education.</h3></div>
+                    </li>
+                    <li>
+                        <span></span>
+
+                        <div><h3>Each activity is designed with a specific lesson or outcome in mind.</h3></div>
+                    </li>
+                    <li>
+                        <span></span>
+
+                        <div><h3>Our activities align with 140 learning standards that progress sequentially.</h3></div>
+                    </li>
+                    <li>
+                        <span></span>
+
+                        <div><h3>Bring your child as early as 6:30am and pick up as late as 6:30pm for the same weekly rate including meals.  </h3></div>
+
+                    </li>
+                    <li>
+                        <span></span>
+
+                        <div><h3> We believe curriculum is everything that happens in the classroom, from interactions and meals to singing and playing. We never miss an opportunity to educate.</h3></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
 </div>
+
 <br/><br/>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-        <div class="jumbotron">
-            <h4> We recognize that curriculum is more than what appears in manuals or a series of activities.</h4>
-            We believe curriculum is everything that happens in the classroom, from interactions and meals to singing and playing. We never miss an opportunity to educate.
-        </div>
-        </div>
-    </div>
+    <!--<div class="row">-->
+        <!--<div class="col-sm-12">-->
+        <!--<div class="jumbotron">-->
+            <!--<h4> We recognize that curriculum is more than what appears in manuals or a series of activities.</h4>-->
+            <!--We believe curriculum is everything that happens in the classroom, from interactions and meals to singing and playing. We never miss an opportunity to educate.-->
+        <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
     <div class="row">
         <div class="col-sm-4">
             <!--<img src="../assets/img/th44GI45CH.jpg" width="100%" alt="test2">-->
@@ -136,7 +187,7 @@
 
                 <div class="panel-body">
                     <h4>Our Vision</h4>
-                    We like kids to learn by doing things themselves and provide them with an endless amount of enthusiasm as well as tools to explore with.
+                   <p> We like kids to learn by doing things themselves and provide them with an endless amount of enthusiasm as well as tools to explore with.</p>
                     <br><br>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
@@ -152,7 +203,7 @@
 
                 <div class="panel-body">
                    <h4>Programs by Age</h4>
-                    We are constantly changing our curriculum but maintain basic methods that we believe nurture children’s learning.  Our methods are exemplified in the activities we do with the kids.
+                    <p>We are constantly changing our curriculum but maintain basic methods that we believe nurture children’s learning.  Our methods are exemplified in the activities we do with the kids.</p>
 
                     <br><br>
                     <a href="#" class="btn btn-primary">Learn More</a>
@@ -170,7 +221,7 @@
 
                 <div class="panel-body">
                     <h4>Why is Quality Early Childhood Education Critically Important?</h4>
-                    Tune in and hear from Elanna Yalow, KinderCare CEO of Early Learning Programs who visited Lifetime Television’s “The Balancing Act” to discuss this topic.
+                   <p>Brute populo scriptorem mel ex, his an labore quidam impedit. Iudico delectus pertinax ex eam. Pro quis corrumpit ne, nec minimum qualisque ad. Mel vocibus sensibus ad.</p>
                     <br><br>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
