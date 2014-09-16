@@ -9,17 +9,17 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!--<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />-->
-    <!--<link href="bower_components/bootstrap/dist/css/bootstrap-theme.css.css" rel="stylesheet" />-->
+
     <link href="css/bootstrap.css" rel="stylesheet"/>
     <!--<link href="css/theme.css" rel="stylesheet" />-->
     <link href="css/style.css" rel="stylesheet"/>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
-    <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Ubuntu' rel='stylesheet'
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'
           type='text/css'/>
 
     <!--blur slidShow -->
     <link rel="stylesheet" href="css/blur.css"/>
+    <link href="css/page_contact.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -105,42 +105,182 @@
     </div>
 </div>
 <!--=== End Breadcrumbs ===-->
-<br>
-<div class="container">
 
-    <div class="row">
-        <div class="col-sm-12">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt sed augue id pharetra. Sed eu
-                leo finibus, volutpat mi vitae, tempor urna. Praesent maximus dolor est, quis venenatis dolor hendrerit
-                nec. Proin at nisl nec ante semper blandit. Aliquam egestas arcu vel nisl sagittis, vel feugiat nisi
-                feugiat. Etiam id risus hendrerit, pharetra ipsum non, consequat risus. Maecenas placerat gravida
-                consequat. Cras suscipit, nibh quis facilisis hendrerit, augue dolor pharetra ante, non fermentum felis
-                nulla at nibh. In nec mattis mauris, in consectetur velit. Pellentesque luctus a nunc sed congue. Cras
-                lacus sem, tristique viverra tristique sit amet, vehicula quis mauris. Morbi aliquet tellus ac ipsum
-                iaculis, eu viverra erat porttitor. Sed interdum lectus nec ex ornare pulvinar. Sed et mauris sit amet
-                lectus convallis malesuada. Suspendisse gravida est vitae pellentesque consequat. Sed nec vulputate
-                orci.
-            </p>
+<!-- Google Map -->
+<div id="map" class="map">
+</div><!---/map-->
+<!-- End Google Map -->
 
-            <p>
-                Duis eget metus in nisi lobortis rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et
-                ultrices posuere cubilia Curae; Integer sed urna ullamcorper, consequat lorem dignissim, maximus lorem.
-                Aenean varius turpis nisl, ac porttitor nisi molestie vel. Aenean a urna et enim feugiat sagittis vitae
-                iaculis velit. Aenean convallis convallis mi, id tempus magna consectetur vel. Nullam sagittis mi vel
-                blandit ultricies. Etiam porta eros vel lacus iaculis, ac pulvinar augue porta.
-            </p>
+<!--=== Content Part ===-->
+<div class="container content">
+    <div class="row margin-bottom-30">
+        <div class="col-md-9 mb-margin-bottom-30">
+            <div class="headline"><h2>Contact Form</h2></div>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p><br />
+            <form>
+                <label>Name</label>
+                <div class="row margin-bottom-20">
+                    <div class="col-md-7 col-md-offset-0">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
 
+                <label>Email <span class="color-red">*</span></label>
+                <div class="row margin-bottom-20">
+                    <div class="col-md-7 col-md-offset-0">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
 
+                <label>Message</label>
+                <div class="row margin-bottom-20">
+                    <div class="col-md-11 col-md-offset-0">
+                        <textarea rows="8" class="form-control"></textarea>
+                    </div>
+                </div>
 
+                <p><button type="submit" class="btn-u">Send Message</button></p>
+            </form>
+        </div><!--/col-md-9-->
+
+        <div class="col-md-3">
+            <!-- Contacts -->
+            <div class="headline"><h2>Contacts</h2></div>
+            <ul class="list-unstyled who margin-bottom-30">
+                <li><a href="#"><i class="fa fa-home"></i>  12201 E Arapahoe Rd #15, Centennial, CO 80112</a></li>
+                <li><a href="mailto:littlerascals@live.com "><i class="fa fa-envelope"></i> littlerascals@live.com</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i> (720) 870-1171</a></li>
+                <li><a href="#"><i class="fa fa-globe"></i> http://www.littlerascalsco.com</a></li>
+            </ul>
+
+            <!-- Business Hours -->
+            <div class="headline"><h2>Business Hours</h2></div>
+            <ul class="list-unstyled margin-bottom-30">
+                <li><strong>Monday-Friday:</strong> 6:30am to 6pm</li>
+                <li><strong>Saturday:</strong> Closed</li>
+                <li><strong>Sunday:</strong> Closed</li>
+            </ul>
         </div>
-
-
     </div>
+
+
 </div>
+
+<!--=== Footer ===-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 md-margin-bottom-40">
+                <!-- About -->
+                <div class="headline"><h2>About</h2></div>
+                <p class="margin-bottom-25 md-margin-bottom-40">Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals.</p>
+                <!-- End About -->
+
+                <!-- Monthly Newsletter -->
+                <div class="headline"><h2>Monthly Newsletter</h2></div>
+                <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
+                <form class="footer-subsribe">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email Address">
+                            <span class="input-group-btn">
+                                <button class="btn-u" type="button">Subscribe</button>
+                            </span>
+                    </div>
+                </form>
+                <!-- End Monthly Newsletter -->
+            </div>
+
+            <!--<div class="col-md-4 md-margin-bottom-40">-->
+                <!--&lt;!&ndash; Recent Blogs &ndash;&gt;-->
+                <!--<div class="posts">-->
+                    <!--<div class="headline"><h2>Recent Blog Entries</h2></div>-->
+                    <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>-->
+                        <!--<dd>-->
+                            <!--<p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p>-->
+                        <!--</dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>-->
+                        <!--<dd>-->
+                            <!--<p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p>-->
+                        <!--</dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="dl-horizontal">-->
+                        <!--<dt><a href="#"><img src="assets/img/sliders/elastislide/11.jpg" alt="" /></a></dt>-->
+                        <!--<dd>-->
+                            <!--<p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p>-->
+                        <!--</dd>-->
+                    <!--</dl>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; End Recent Blogs &ndash;&gt;-->
+            <!--</div>&lt;!&ndash;/col-md-4&ndash;&gt;-->
+
+
+
+
+            <div class="col-md-4">
+                <!-- Contact Us -->
+                <div class="headline"><h2>Contact Us</h2></div>
+                <address class="md-margin-bottom-40">
+                    12201 E Arapahoe Rd #15<br />
+                    Centennial, CO 80112 <br />
+                    Phone: (720) 870-1171 <br />
+                    <!--Fax: 800 123 3456 <br />-->
+                    Email: <a href="mailto: http://www.littlerascalsco.com" class=""> http://www.littlerascalsco.com</a>
+                </address>
+                <!-- End Contact Us -->
+
+                <!-- Social Links -->
+                <div class="headline"><h2>Stay Connected</h2></div>
+                <ul class="social-icons">
+                    <!--<li><a href="#" data-original-title="Feed" class="social_rss"></a></li>-->
+                    <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
+                    <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
+                    <!--<li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>-->
+                    <!--<li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>-->
+                    <!--<li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>-->
+                    <!--<li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>-->
+                </ul>
+                <!-- End Social Links -->
+            </div>
+        </div>
+    </div>
+</div><!--/footer-->
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    2014 &copy; Imagein-It. ALL Rights Reserved.
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <!--<a href="index.html">-->
+                    <!--<img class="pull-right" id="logo-footer" src="assets/img/logo2-default.png" alt="">-->
+                <!--</a>-->
+            </div>
+        </div>
+    </div>
+</div><!--/copyright-->
+<!--=== End Copyright ===-->
 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="js/plugins/gmap.js"></script>
+<script type="text/javascript" src="js/page_contacts.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        ContactPage.initMap();
+    });
+</script>
 </body>
 </html>
