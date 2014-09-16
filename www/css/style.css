@@ -2,20 +2,44 @@ body {
     font-family: "Ubuntu",Helvetica,Arial,sans-serif;
 }
 
-
+@font-face {
+    font-family: comicSans;
+    src: url(../fonts/LDFComicSans.ttf);
+}
 .navbar-brand {
-    font-family: "Just Me Again Down Here";
+
+    font-family: comicSans;
     font-size: 36px;
     vertical-align: middle;
-    text-shadow: 2px 2px rgba(47, 71, 119, 0.67);
+    text-shadow: 1px 1px rgb(47, 47, 47);
 
+    font-stretch: extra-condensed;
+    letter-spacing: -5px;
 }
 
-h1,
-h2,
+h1,h2,h3,h4,h5,h6
  {
-    font-family: "Just Me Again Down Here",Helvetica,Arial,sans-serif;
+    font-family: comicSans;
     font-weight: 200;
+}
+
+
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+
+.white {
+    color: white;
 }
 
 /* Page Title
