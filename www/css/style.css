@@ -64,22 +64,23 @@ h1,h2,h3,h4,h5,h6
 
 #page-title {
     background: url(../img/slider.jpg);
-    display: block;
+height: 30px;
     margin-bottom: 25px;
     position: relative;
     z-index: 20;
     border-bottom: 5px solid #f6f6f6;
+
 }
 
 #page-title-inner {
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5YTlkZiIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI5YTlkZiIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-    background: -moz-linear-gradient(top, rgba(216, 9, 77, 0.90) 0%, rgba(216, 9, 77, 0.90) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(216, 9, 77, 0.90)), color-stop(100%, rgba(216, 9, 77, 0.90))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(216, 9, 77, 0.90) 0%, rgba(216, 9, 77, 0.90) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(216, 9, 77, 0.90) 0%, rgba(216, 9, 77, 0.90) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(216, 9, 77, 0.90) 0%, rgba(216, 9, 77, 0.90) 100%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(216, 9, 77, 0.90) 0%, rgba(216, 9, 77, 0.90) 100%); /* W3C */
+    background: -moz-linear-gradient(top, rgba(177, 9, 64, 0.85) 0%, rgba(177, 9, 64, 0.85) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(177, 9, 64, 0.85)), color-stop(80%, rgba(177, 9, 64, 0.85))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(177, 9, 64, 0.86) 0%, rgba(177, 9, 64, 0.85) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(177, 9, 64, 0.85) 0%, rgba(177, 9, 64, 0.85) 80%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(177, 9, 64, 0.85) 0%, rgba(177, 9, 64, 0.85) 80%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(177, 9, 64, 0.85) 0%, rgba(177, 9, 64, 0.85) 80%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e629a9df', endColorstr='#e629a9df',GradientType=0 ); /* IE6-8 */
     -webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
     -moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
@@ -92,12 +93,12 @@ h1,h2,h3,h4,h5,h6
     padding: 0px;
 }
 
-#page-title h2 {
+#page-title h3 {
     display: inline-block;
-    font-family: "Just Me Again Down Here" !important;
+    font-family: comicSans !important;
     color: #fff;
     /*padding: 10px 20px 5px 20px;*/
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #page-title span {
