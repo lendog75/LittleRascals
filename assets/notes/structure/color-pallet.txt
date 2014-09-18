@@ -1,4 +1,4 @@
-
+Hovers = #FF095A
 
 Ligether Red
 HEX Code:
