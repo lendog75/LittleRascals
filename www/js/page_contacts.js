@@ -30,7 +30,7 @@ var ContactPage = function () {
                   lng: -104.846672
 		      });
 		    });
-		}        
+		}
 
     };
 }();
