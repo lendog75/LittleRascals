@@ -2,6 +2,10 @@ body {
     font-family: "Ubuntu",Helvetica,Arial,sans-serif;
 }
 
+.align-right { float:right; margin: 0 0 15px 15px; }
+
+
+
 @font-face {
     font-family: comicSans;
     src: url(../fonts/LDFComicSans.ttf);
@@ -11,8 +15,8 @@ body {
     font-family: comicSans;
     font-size: 36px;
     vertical-align: middle;
-
-    text-shadow: 1px 1px rgb(47, 47, 47);
+        padding-top: 20px;
+    text-shadow: 1px 1px rgb(159, 159, 159);
 
     font-stretch: extra-condensed;
     letter-spacing: -5px;
@@ -23,8 +27,6 @@ h1,h2,h3,h4,h5,h6
     font-family: comicSans;
     font-weight: 200;
 }
-
-
 
 .red {
     color: red;
@@ -47,7 +49,6 @@ h1,h2,h3,h4,h5,h6
 .headline {
     display: block;
     margin: 10px 0 25px 0;
-    border-bottom: 1px dotted #e4e9f0;
 }
 
 .headline h2 {
@@ -171,6 +172,8 @@ h1,h2,h3,h4,h5,h6
     color: #dadada;
     list-style: none;
 }
+
+
 
 .footer .blog-list li {
     padding: 0 0;
